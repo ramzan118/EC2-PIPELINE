@@ -2,7 +2,7 @@ FROM node:18-alpine
 
 WORKDIR /usr/src/app
 COPY package*.json ./
-# this is dockerfile
+# this is dockerfile.yes it is
 RUN npm ci
 COPY . .
 EXPOSE 3000
